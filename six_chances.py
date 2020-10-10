@@ -18,12 +18,9 @@ while (count < 6):
 
     if (user_letter in word):
 
-        
-
-        print( length )
-        print( index_letter )
-        if (index_letter == length):
-            print( "yeeees,you are the winner" )
+        index_letter = counter(index_letter)
+        if ((index_letter) == length):
+            print( "yeeees,you are the winner{}".format(word) )
             break
         print( "the letter index is{} ".format( word.find( user_letter ) ) )
 

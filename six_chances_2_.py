@@ -19,7 +19,7 @@ elif(word == "sky"):
 else:
     print("a place to study _ _ _ _ _ _ _ _ _ _")
 
-my_word = [0,1,2,3,4,5,6,7,8,9,10]
+my_word = ['_','_','_','_','_','_','_','_','_','_']
 # ___________________________________________________________________
 # a counter function
 def counter(inde_letter):
@@ -27,11 +27,7 @@ def counter(inde_letter):
     inde_letter = ((inde_letter) + 1)
     return (inde_letter)
 
-# ______________________________________________________________________
-#def find_letter(X):
-#    for letter in word:
-#        Y=word.find(X)
-#        return Y
+
 
 # ______________________________________________________________________
 #the main program body
@@ -61,6 +57,7 @@ while (count < 6):
 
         if ((index_letter) == length):
             print("yeeees,you are the winner  \n, my word is {} ".format(word))
+        print (my_word)
             break
 
 
