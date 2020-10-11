@@ -27,7 +27,11 @@ def counter(inde_letter):
     inde_letter = ((inde_letter) + 1)
     return (inde_letter)
 
-
+# ______________________________________________________________________
+#def find_letter(X):
+#    for letter in word:
+#        Y=word.find(X)
+#        return Y
 
 # ______________________________________________________________________
 #the main program body
@@ -42,7 +46,7 @@ while (count < 6):
         for the_index in index_input_letter:
             index_my_word = the_index
             my_word[index_my_word] = user_letter
-
+            print(my_word)
 
         #return  duplicate item sum
         indexes = len(index_input_letter)
@@ -57,7 +61,6 @@ while (count < 6):
 
         if ((index_letter) == length):
             print("yeeees,you are the winner  \n, my word is {} ".format(word))
-        print (my_word)
             break
 
 
